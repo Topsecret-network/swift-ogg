@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 	s.license = { :type => "MIT", :file => "LICENSE" }
 	s.author = { "Chaos" => "secret@topsecret.network" }
 	s.homepage = "https://github.com/Topsecret-network/swift-ogg"
-	s.source = { :http => "https://github.com/Topsecret-network/swift-ogg.git", :branch => "development" }
+	s.source = { :http => "https://github.com/Topsecret-network/swift-ogg.git", :branch => "topsecret" }
 	
 	
 	# Dependencies
