@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 	s.name = "SwiftOGG"
 	s.summary = "It wrapped from a swift-ogg"
 	s.requires_arc = true
-	s.version = "1.0.0"
+	s.version = "1.0.1"
 	s.license = { :type => "MIT", :file => "LICENSE" }
 	s.author = { "Chaos" => "secret@topsecret.network" }
 	s.homepage = "https://github.com/Topsecret-network/swift-ogg"
