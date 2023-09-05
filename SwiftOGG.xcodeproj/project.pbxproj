@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4CE0B472AA0925E00118E4B /* opus_header.c in Sources */ = {isa = PBXBuildFile; fileRef = C4CE0B3B2AA0925E00118E4B /* opus_header.c */; };
+		C4CE0B482AA0925E00118E4B /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CE0B3D2AA0925E00118E4B /* ogg.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C4CE0B492AA0925E00118E4B /* opus_header.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CE0B3E2AA0925E00118E4B /* opus_header.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C4CE0B4A2AA0925E00118E4B /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CE0B402AA0925E00118E4B /* os_types.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C4CE0B4B2AA0925E00118E4B /* OGGConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE0B422AA0925E00118E4B /* OGGConverter.swift */; };
+		C4CE0B4C2AA0925E00118E4B /* OpusError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE0B432AA0925E00118E4B /* OpusError.swift */; };
+		C4CE0B4D2AA0925E00118E4B /* OGGDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE0B442AA0925E00118E4B /* OGGDecoder.swift */; };
+		C4CE0B4E2AA0925E00118E4B /* OGGEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE0B452AA0925E00118E4B /* OGGEncoder.swift */; };
+		C4CE0B532AA0927A00118E4B /* YbridOgg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CE0B512AA0927A00118E4B /* YbridOgg.xcframework */; };
+		C4CE0B542AA0927A00118E4B /* YbridOgg.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4CE0B512AA0927A00118E4B /* YbridOgg.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C4CE0B552AA0927A00118E4B /* YbridOpus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CE0B522AA0927A00118E4B /* YbridOpus.xcframework */; };
+		C4CE0B562AA0927A00118E4B /* YbridOpus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4CE0B522AA0927A00118E4B /* YbridOpus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4CE0B572AA0927A00118E4B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C4CE0B542AA0927A00118E4B /* YbridOgg.xcframework in Embed Frameworks */,
+				C4CE0B562AA0927A00118E4B /* YbridOpus.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C4CE0B2D2AA0923B00118E4B /* SwiftOGG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOGG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CE0B3B2AA0925E00118E4B /* opus_header.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opus_header.c; sourceTree = "<group>"; };
+		C4CE0B3D2AA0925E00118E4B /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
+		C4CE0B3E2AA0925E00118E4B /* opus_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_header.h; sourceTree = "<group>"; };
+		C4CE0B3F2AA0925E00118E4B /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		C4CE0B402AA0925E00118E4B /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
+		C4CE0B422AA0925E00118E4B /* OGGConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OGGConverter.swift; sourceTree = "<group>"; };
+		C4CE0B432AA0925E00118E4B /* OpusError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpusError.swift; sourceTree = "<group>"; };
+		C4CE0B442AA0925E00118E4B /* OGGDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OGGDecoder.swift; sourceTree = "<group>"; };
+		C4CE0B452AA0925E00118E4B /* OGGEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OGGEncoder.swift; sourceTree = "<group>"; };
+		C4CE0B512AA0927A00118E4B /* YbridOgg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = YbridOgg.xcframework; sourceTree = "<group>"; };
+		C4CE0B522AA0927A00118E4B /* YbridOpus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = YbridOpus.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4CE0B2A2AA0923B00118E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CE0B532AA0927A00118E4B /* YbridOgg.xcframework in Frameworks */,
+				C4CE0B552AA0927A00118E4B /* YbridOpus.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4CE0B232AA0923B00118E4B = {
+			isa = PBXGroup;
+			children = (
+				C4CE0B372AA0925E00118E4B /* Sources */,
+				C4CE0B2E2AA0923B00118E4B /* Products */,
+				C4CE0B502AA0927A00118E4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4CE0B2E2AA0923B00118E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE0B2D2AA0923B00118E4B /* SwiftOGG.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4CE0B372AA0925E00118E4B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE0B382AA0925E00118E4B /* SupportingFiles */,
+				C4CE0B412AA0925E00118E4B /* SwiftOgg */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C4CE0B382AA0925E00118E4B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE0B392AA0925E00118E4B /* Dependencies */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C4CE0B392AA0925E00118E4B /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE0B3A2AA0925E00118E4B /* Copustools */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		C4CE0B3A2AA0925E00118E4B /* Copustools */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE0B3B2AA0925E00118E4B /* opus_header.c */,
+				C4CE0B3C2AA0925E00118E4B /* include */,
+			);
+			path = Copustools;
+			sourceTree = "<group>";
+		};
+		C4CE0B3C2AA0925E00118E4B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE0B3D2AA0925E00118E4B /* ogg.h */,
+				C4CE0B3E2AA0925E00118E4B /* opus_header.h */,
+				C4CE0B3F2AA0925E00118E4B /* module.modulemap */,
+				C4CE0B402AA0925E00118E4B /* os_types.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C4CE0B412AA0925E00118E4B /* SwiftOgg */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE0B422AA0925E00118E4B /* OGGConverter.swift */,
+				C4CE0B432AA0925E00118E4B /* OpusError.swift */,
+				C4CE0B442AA0925E00118E4B /* OGGDecoder.swift */,
+				C4CE0B452AA0925E00118E4B /* OGGEncoder.swift */,
+			);
+			path = SwiftOgg;
+			sourceTree = "<group>";
+		};
+		C4CE0B502AA0927A00118E4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE0B512AA0927A00118E4B /* YbridOgg.xcframework */,
+				C4CE0B522AA0927A00118E4B /* YbridOpus.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C4CE0B282AA0923B00118E4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CE0B492AA0925E00118E4B /* opus_header.h in Headers */,
+				C4CE0B482AA0925E00118E4B /* ogg.h in Headers */,
+				C4CE0B4A2AA0925E00118E4B /* os_types.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C4CE0B2C2AA0923B00118E4B /* SwiftOGG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CE0B342AA0923B00118E4B /* Build configuration list for PBXNativeTarget "SwiftOGG" */;
+			buildPhases = (
+				C4CE0B282AA0923B00118E4B /* Headers */,
+				C4CE0B292AA0923B00118E4B /* Sources */,
+				C4CE0B2A2AA0923B00118E4B /* Frameworks */,
+				C4CE0B2B2AA0923B00118E4B /* Resources */,
+				C4CE0B572AA0927A00118E4B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftOGG;
+			productName = "swift-ogg";
+			productReference = C4CE0B2D2AA0923B00118E4B /* SwiftOGG.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4CE0B242AA0923B00118E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C4CE0B2C2AA0923B00118E4B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = C4CE0B272AA0923B00118E4B /* Build configuration list for PBXProject "SwiftOGG" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4CE0B232AA0923B00118E4B;
+			productRefGroup = C4CE0B2E2AA0923B00118E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4CE0B2C2AA0923B00118E4B /* SwiftOGG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4CE0B2B2AA0923B00118E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4CE0B292AA0923B00118E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CE0B4B2AA0925E00118E4B /* OGGConverter.swift in Sources */,
+				C4CE0B472AA0925E00118E4B /* opus_header.c in Sources */,
+				C4CE0B4D2AA0925E00118E4B /* OGGDecoder.swift in Sources */,
+				C4CE0B4C2AA0925E00118E4B /* OpusError.swift in Sources */,
+				C4CE0B4E2AA0925E00118E4B /* OGGEncoder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4CE0B322AA0923B00118E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4CE0B332AA0923B00118E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4CE0B352AA0923B00118E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U633M9A2Z3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_PRIVATE_FILE = "";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=$(SRCROOT)/Sources/SupportingFiles/Dependencies/Copustools/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = "network.topsecret.coredataModels.swift-ogg";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		C4CE0B362AA0923B00118E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U633M9A2Z3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_PRIVATE_FILE = "";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=$(SRCROOT)/Sources/SupportingFiles/Dependencies/Copustools/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = "network.topsecret.coredataModels.swift-ogg";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4CE0B272AA0923B00118E4B /* Build configuration list for PBXProject "SwiftOGG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CE0B322AA0923B00118E4B /* Debug */,
+				C4CE0B332AA0923B00118E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CE0B342AA0923B00118E4B /* Build configuration list for PBXNativeTarget "SwiftOGG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CE0B352AA0923B00118E4B /* Debug */,
+				C4CE0B362AA0923B00118E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4CE0B242AA0923B00118E4B /* Project object */;
+}

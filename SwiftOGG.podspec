@@ -9,14 +9,8 @@ Pod::Spec.new do |s|
 	s.license = { :type => "MIT", :file => "LICENSE" }
 	s.author = { "Chaos" => "secret@topsecret.network" }
 	s.homepage = "https://github.com/Topsecret-network/swift-ogg"
-	s.source = { :http => "https://github.com/Topsecret-network/swift-ogg.git", :tag => s.version }
+	s.source = { :git => "https://github.com/Topsecret-network/swift-ogg.git", :tag => s.version }
 	
-	
-	# Dependencies
-  	# s.dependency 'YbridOpus', '0.8.4'
-  	# s.dependency 'YbridOgg', '0.8.3'
-    s.vendored_frameworks = ['YbridOpus.xcframework', 'YbridOgg.xcframework']
-  	s.source_files = "Sources/SwiftOgg/**/*.swift", "Sources/SupportingFiles/Dependencies/Copustools/**/*.{swift,h,m,c,cc,mm,cpp}"  
-	
+    s.vendored_frameworks = ['YbridOpus.xcframework', 'YbridOgg.xcframework', 'SwiftOGG.xcframework']
 	s.swift_version = '4.2'
 end

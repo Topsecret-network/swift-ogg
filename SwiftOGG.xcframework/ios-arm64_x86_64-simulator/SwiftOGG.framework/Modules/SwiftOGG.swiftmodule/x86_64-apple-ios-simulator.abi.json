@@ -1,0 +1,1393 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OGGConverterError",
+        "printedName": "OGGConverterError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failedToCreateAVAudioChannelLayout",
+            "printedName": "failedToCreateAVAudioChannelLayout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftOGG.OGGConverterError.Type) -> SwiftOGG.OGGConverterError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OGGConverterError",
+                    "printedName": "SwiftOGG.OGGConverterError",
+                    "usr": "s:8SwiftOGG17OGGConverterErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftOGG.OGGConverterError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OGGConverterError",
+                        "printedName": "SwiftOGG.OGGConverterError",
+                        "usr": "s:8SwiftOGG17OGGConverterErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8SwiftOGG17OGGConverterErrorO34failedToCreateAVAudioChannelLayoutyA2CmF",
+            "mangledName": "$s8SwiftOGG17OGGConverterErrorO34failedToCreateAVAudioChannelLayoutyA2CmF",
+            "moduleName": "SwiftOGG"
+          },
+          {
+            "kind": "Var",
+            "name": "failedToCreatePCMBuffer",
+            "printedName": "failedToCreatePCMBuffer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftOGG.OGGConverterError.Type) -> SwiftOGG.OGGConverterError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OGGConverterError",
+                    "printedName": "SwiftOGG.OGGConverterError",
+                    "usr": "s:8SwiftOGG17OGGConverterErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftOGG.OGGConverterError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OGGConverterError",
+                        "printedName": "SwiftOGG.OGGConverterError",
+                        "usr": "s:8SwiftOGG17OGGConverterErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8SwiftOGG17OGGConverterErrorO23failedToCreatePCMBufferyA2CmF",
+            "mangledName": "$s8SwiftOGG17OGGConverterErrorO23failedToCreatePCMBufferyA2CmF",
+            "moduleName": "SwiftOGG"
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftOGG.OGGConverterError.Type) -> (Swift.Error) -> SwiftOGG.OGGConverterError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> SwiftOGG.OGGConverterError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OGGConverterError",
+                        "printedName": "SwiftOGG.OGGConverterError",
+                        "usr": "s:8SwiftOGG17OGGConverterErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftOGG.OGGConverterError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OGGConverterError",
+                        "printedName": "SwiftOGG.OGGConverterError",
+                        "usr": "s:8SwiftOGG17OGGConverterErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8SwiftOGG17OGGConverterErrorO5otheryACs0D0_pcACmF",
+            "mangledName": "$s8SwiftOGG17OGGConverterErrorO5otheryACs0D0_pcACmF",
+            "moduleName": "SwiftOGG"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8SwiftOGG17OGGConverterErrorO",
+        "mangledName": "$s8SwiftOGG17OGGConverterErrorO",
+        "moduleName": "SwiftOGG",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OGGConverter",
+        "printedName": "OGGConverter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "convertOpusOGGToM4aFile",
+            "printedName": "convertOpusOGGToM4aFile(src:dest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SwiftOGG12OGGConverterC23convertOpusOGGToM4aFile3src4desty10Foundation3URLV_AItKFZ",
+            "mangledName": "$s8SwiftOGG12OGGConverterC23convertOpusOGGToM4aFile3src4desty10Foundation3URLV_AItKFZ",
+            "moduleName": "SwiftOGG",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertM4aFileToOpusOGG",
+            "printedName": "convertM4aFileToOpusOGG(src:dest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SwiftOGG12OGGConverterC020convertM4aFileToOpusB03src4desty10Foundation3URLV_AItKFZ",
+            "mangledName": "$s8SwiftOGG12OGGConverterC020convertM4aFileToOpusB03src4desty10Foundation3URLV_AItKFZ",
+            "moduleName": "SwiftOGG",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8SwiftOGG12OGGConverterC",
+        "mangledName": "$s8SwiftOGG12OGGConverterC",
+        "moduleName": "SwiftOGG",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOpus",
+        "printedName": "YbridOpus",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG"
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOgg",
+        "printedName": "YbridOgg",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG"
+      },
+      {
+        "kind": "Import",
+        "name": "Copustools",
+        "printedName": "Copustools",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOpus",
+        "printedName": "YbridOpus",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG"
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOgg",
+        "printedName": "YbridOgg",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AudioToolbox",
+        "printedName": "AudioToolbox",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG"
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOpus",
+        "printedName": "YbridOpus",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG"
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOgg",
+        "printedName": "YbridOgg",
+        "declKind": "Import",
+        "moduleName": "SwiftOGG"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGConverter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1320,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGConverter.swift",
+      "kind": "Dictionary",
+      "offset": 1525,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGConverter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1700,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGConverter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2452,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGConverter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3114,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGConverter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3269,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGConverter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3378,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 782,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1095,
+      "length": 3,
+      "value": "960"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1101,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1656,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1739,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1837,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1911,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2010,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2114,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2293,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2402,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2494,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2569,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2682,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2794,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "Array",
+      "offset": 2879,
+      "length": 34,
+      "value": "[8000, 12000, 16000, 24000, 48000]"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3224,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3404,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3807,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3842,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4707,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4915,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5543,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 5565,
+      "length": 34,
+      "value": "\"Does not look like an opus file.\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6177,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6260,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6281,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 6308,
+      "length": 10,
+      "value": "\"OpusHead\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6320,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6326,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6512,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6737,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 6815,
+      "length": 75,
+      "value": "\"Apparent chaining without changing serial number. Something bad happened.\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7064,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7105,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7141,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7177,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7213,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 7266,
+      "length": 32,
+      "value": "\"Warning: ignoring opus stream.\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7541,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7821,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8052,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8072,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8411,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8447,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8510,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8642,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8662,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 8694,
+      "length": 53,
+      "value": "\"Extra packets on initial tags page. Invalid stream.\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9146,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9194,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 9224,
+      "length": 78,
+      "value": "\"Decoding error: \""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 9301,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9668,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9880,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10173,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10254,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11681,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11811,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11836,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11868,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12075,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12247,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1572,
+      "length": 4,
+      "value": "3832"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 2523,
+      "length": 86,
+      "value": "\"Resampling is not supported. Please ensure that the PCM and Opus sample rates match.\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2720,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2750,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2783,
+      "length": 3,
+      "value": "960"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2790,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2993,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3193,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3977,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4039,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4513,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4538,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4654,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4776,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4987,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5513,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5538,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5654,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5776,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5987,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6557,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6753,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7148,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7357,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7515,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7544,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7672,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7806,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8442,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9162,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9226,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9413,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9620,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9766,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9791,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9907,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10029,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10188,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10605,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10809,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10950,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11014,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11201,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11516,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11632,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11754,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11847,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11905,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11996,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12088,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12678,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "Array",
+      "offset": 13427,
+      "length": 50,
+      "value": "[0x4f, 0x70, 0x75, 0x73, 0x48, 0x65, 0x61, 0x64]"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13515,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14240,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14411,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14577,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14753,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "Array",
+      "offset": 15188,
+      "length": 50,
+      "value": "[0x4f, 0x70, 0x75, 0x73, 0x54, 0x61, 0x67, 0x73]"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 15420,
+      "length": 9,
+      "value": "\"ENCODER\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 15438,
+      "length": 27,
+      "value": "\"IBM Mobile Innovation Lab\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15761,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16007,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 16378,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 16385,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 16394,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16604,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16853,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16873,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16896,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16853,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16873,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16896,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16853,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16873,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chaos\/Desktop\/TS\/swift-ogg\/Sources\/SwiftOgg\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16896,
+      "length": 3,
+      "value": "255"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+framework module SwiftOGG {
+  header "SwiftOGG-Swift.h"
+  requires objc
+}
